@@ -6,6 +6,7 @@ public class InsertionSort implements SortingAlgorithm {
 			
 			int j = i - 1;
 			
+			/** While loop shifts array to the right so num can be placed at the correct index **/
 			while (j >= 0 && num < a[j]) {
 				a[j + 1] = a[j];
 				j--;

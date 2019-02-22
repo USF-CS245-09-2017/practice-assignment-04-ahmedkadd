@@ -18,6 +18,7 @@ public class BubbleSort implements SortingAlgorithm {
 				
 			}
 			
+			/* If no swaps occur, then list is already sorted */
 			if (!swapped) {
 				break;
 			}

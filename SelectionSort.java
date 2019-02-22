@@ -6,6 +6,7 @@ public class SelectionSort implements SortingAlgorithm {
 	
 			int min_index = i;
 			
+			/** for loop searches through the list for the smallest number **/
 			for (int j = i + 1; j < a.length; j++) {
 				if (a[j] < a[min_index]) {
 					min_index = j;
